@@ -33,10 +33,8 @@ def link():
 def url_check(url):
     url1 = cursor.execute('SELECT urls FROM urls_code WHERE code = ?',(url,)).fetchone()
     if not url1:
-        print('ne')
         return redirect('/')
     else:
-        print(url1[0])
         return redirect(url1[0])
 
 

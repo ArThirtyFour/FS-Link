@@ -1,0 +1,13 @@
+{% extends 'index.html' %}
+{% block title %}
+<title>Сокращение ссылки</title>
+{% endblock %}
+{% block main %}
+<form action="/new_link" method="post">
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Ссылка для сокращения</label>
+        <textarea name='url' class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+    </div>
+    <input type="submit" class="btn btn-secondary rounded-pill px-3" value="Получить ссылку">
+</form>
+{% endblock %}

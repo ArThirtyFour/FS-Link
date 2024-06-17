@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+{% block title %}
+<title>FS-Link</title>
+{% endblock %}
+{% block main %}
+<div class="px-4 pt-5 my-5 text-center border-bottom">
+    <p class="display-1">FS-Link</p>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Данный сайт создан с целью сокращения ссылок для удобного перекидывания. Вы кидаете нам ссылку и мы вам дадим url где будет лежать нужная ссылка для копирования. Нажмите на кнопку ниже для пробывания.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button class="btn btn-primary btn-lg px-4 me-sm-3"><a href="/new_link" style="color: #ffffff; text-decoration: none;">Сократить ссылку</a></button>
+          </div>
+        </div>
+</div>
+{% endblock %}

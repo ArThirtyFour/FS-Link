@@ -10,6 +10,7 @@
 * Flask
 * BootStrap
 ---
+
 Сама установка :
 * `git clone https://github.com/ArThirtyFour/FS-Link`
 * `pip install flask`
